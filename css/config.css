@@ -1,0 +1,86 @@
+*{box-sizing:border-box;}
+html, body {
+/*	font-family: 'Fira Sans', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	line-height:22px;
+	min-width:100%;
+	padding:0;
+	margin:0;
+	
+}
+
+#mobile {display: none;}
+
+img {border:0; max-width:100%;}
+a {text-decoration:none;}
+hr {border-bottom:0; border-top:1px solid #e1dddd;}
+
+header, nav, section, footer {display:block;}
+
+h1, h2, h3, h4, h5, h6 {
+	padding:0;
+	margin:0;
+}
+
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1160px;
+}
+
+.container:before,
+.container:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container {
+  zoom: 1;
+}
+
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+
+input:focus {outline:none;}
+select:focus{outline:none;}
+textarea:focus {outline:none;}
+textarea {resize:none;}
+label {display:block;}
+
+input, select, textarea {font-family: 'Fira Sans', sans-serif;}
+
+.erro {
+	padding:5px;
+	background:#FFC1C1;
+	margin:10px 0;
+	display:block;
+}
+
+.sucesso {
+	padding:5px;
+	display:block;
+	background:#66ac54;
+	margin:10px 0;
+	color:#FFF;
+}
+
+
+
+
