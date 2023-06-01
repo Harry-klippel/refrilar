@@ -28,6 +28,22 @@
 			gtag('config', 'AW-988224722');
 		</script>
 
+				<!-- Event snippet for Botão Whats conversion page. -->
+		<script>
+			function gtag_report_conversion(url) {
+			var callback = function () {
+			if (typeof(url) != 'undefined') {
+			window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+			'send_to': 'AW-988224722/7UqpCPmUkNUDENK5nNcD',
+			'event_callback': callback
+			});
+			return false;
+			}
+		</script>
+
 	</head>
 
 	<body>
