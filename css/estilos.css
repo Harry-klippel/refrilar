@@ -20,17 +20,17 @@
 #text_sobre {float:left;width:40%; height:auto; margin-top:70px;}
 #text_sobre h1 {font-size:50px; line-height:55px; margin-bottom:30px; font-weight:900; color:#0059aa;}
 #text_sobre p {font-size:20px; line-height:30px; font-weight:300; color:#555;}
-#text_sobre a {color:#fff;background:#01529d; margin-top:20px; font-weight:300; display:inline-block; font-size:18px; padding:17px 30px; border-radius:70px;}
+#text_sobre a {color:#fff;background:#01529d; margin-top:20px; font-weight:400; display:inline-block; font-size:18px; padding:18px 30px; border-radius:70px;}
 
 
-#servico {width:100%; height:auto; overflow:auto; padding:200px 0 100px 0; /* background:#0059aa; */ background:url("../imagens/crumb.jpg") fixed center no-repeat; background-size:cover;}
+#servico {width:100%; height:auto; overflow:auto; padding:200px 0 100px 0; /* background:#0059aa; */ background:url("../imagens/crumb.webp") fixed center no-repeat; background-size:cover;}
 
 #img_servico {float:left; width:45%;}
 
 #text_servico {float:right; width:45%; height:auto; color:#f8f8f8; margin-top:20px;}
 #text_servico h1 {font-size:50px; line-height:55px; margin-bottom:30px; font-weight:900;}
 #text_servico p {font-size:20px; line-height:30px; font-weight:300;}
-#text_servico a {color:#fff; background:#01529d;border: 1px solid rgba(255, 255, 255, 0.347); box-shadow: 0 2px 4px rgba(255, 255, 255, 0.129); margin-top:20px; font-weight:300; display:inline-block; font-size:18px; padding:17px 30px; border-radius:70px;}
+#text_servico a {color:#fff; background:#01529d;border: 1px solid rgba(255, 255, 255, 0.347); box-shadow: 0 2px 4px rgba(255, 255, 255, 0.129); margin-top:20px; font-weight:400; display:inline-block; font-size:18px; padding:17px 30px; border-radius:70px;}
 
 
 
@@ -45,7 +45,7 @@
 .text_box_servico h1 {font-size:35px; line-height:50px; font-weight:700; margin:30px 0; color:white;}
 .text_box_servico p {color:#fff; font-size:16px; line-height:26px; font-weight:300;}
 
-.text_box_servico a {color:#fff; background:#01529d; margin-top:20px; font-weight:300; display:inline-block; font-size:18px; padding:17px 30px; border-radius:70px;}
+.text_box_servico a {color:#fff; background:#01529d; margin-top:20px; font-weight:400; display:inline-block; font-size:18px; padding:17px 30px; border-radius:70px;}
 
 .img_box_servico {float:right; width:50%; height:400px; box-sizing:border-box; text-align:center; padding:0;}
 .img_box_servico img {max-height:100%;}
@@ -80,7 +80,7 @@
 .caminho a {color:#777;}
 
 .conteudo_left {float:left; width:70%; height:auto; overflow:auto; font-size:16px; color:#555; line-height:27px;}
-.conteudo_left h3 {display:block; font-size:40px; line-height:55px; font-weight:300; color:#0059aa;}
+.conteudo_left h3 {display:block; font-size:40px; line-height:55px; font-weight:400; color:#0059aa;}
 .conteudo_left ul {padding:0; margin:0; line-height:none;}
 .conteudo_left ul li {display:block; margin:10px 0;}
 .conteudo_left a {color:#888; text-decoration:underline;}
@@ -174,7 +174,7 @@ body, html {width:100%;}
    padding: 20px 40px;
    border-radius: 70px;
    margin-left: 22px;
-   margin-top: 11%;
+   margin-top: 3%;
    color: white;
    background-color: #01529d;
    border: 1px solid rgba(0, 0, 0, 0.344);

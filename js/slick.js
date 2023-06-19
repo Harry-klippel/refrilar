@@ -7,7 +7,7 @@ $(document).ready(function(){
      arrows: false,
      dots: true,
      fade: true, // Usar efeito de transição de fade
-     speed: 500,
+     speed: 800,
      autoplaySpeed: 3000 // Tempo de atraso entre os slides em milissegundos
    })
  })
