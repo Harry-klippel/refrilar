@@ -17,7 +17,7 @@ text-size-adjust:100%;
 .navik-header a:focus, .navik-header a:active {outline:none;}
 .navik-header-container {position:relative;}
 .navik-header-overlay .navik-header-container {position:inherit;}
-.navik-header .logo {float:none !important; padding:15px 0; max-width:100px;}
+.navik-header .logo {float:none !important; padding:4px 0; max-width:100px;}
 .navik-header .logo img {max-width:100%; height:auto;}
 
 
